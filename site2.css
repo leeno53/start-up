@@ -1,0 +1,95 @@
+body {
+	background-color: rgb(133, 109, 77);
+	font-family: fantasy;
+}
+
+
+
+#header-div{
+    background-image: url(R/Users/user/Desktop/my profile/images/plateau.jpg);
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    max-width: 200%;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+
+.card-white {
+	background-color: beige;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+
+.img-circle {
+border-radius: 30%;
+}
+
+
+h1, h2, h3, h4 {
+  color: saddlebrown;
+  font-weight: bold;
+}
+
+h1 {
+	font-size: 30;
+}<
+
+button {
+        display: inline-block;
+        background-color: #7b38d8;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      button span:after {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      button:hover {
+        background-color: #f7c2f9;
+      }
+      button:hover span {
+        padding-right: 25px;
+      }
+      button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Boutons de style</h2>
+    <button>
+      <span>Envoyer</span>
+    </button>
